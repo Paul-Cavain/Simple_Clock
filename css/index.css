@@ -1,0 +1,43 @@
+body, html {
+    background-color: darkblue;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    /* margin-left: -260px; */
+    right: 20%;
+    bottom: 4%;
+    position: absolute;
+}
+.clock_square {
+    background-color: darkcyan;
+    max-width: fit-content;
+    height: 17vh;
+    padding: 30px;
+    border-radius: 6px;
+    margin-top: 50px;
+    position: absolute;
+}
+.clock_numbers {
+    font-size: 70px;
+}
+.clock_words {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
